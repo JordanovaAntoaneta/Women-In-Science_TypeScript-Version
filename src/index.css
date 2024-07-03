@@ -1,13 +1,202 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+SK:wght@100..400&display=swap');
+
+:root {
+  background-color: lightseagreen;
+  color: white;
+  font-family: "Playwrite SK", cursive;
+  font-weight: bold;
+  justify-content: space-around;
+  display: flex;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.title {
+  text-transform: uppercase;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 30px;
+  font-size: 3rem;
+}
+
+.scientist-image {
+  width: 10rem;
+  height: fit-content;
+  margin: 1rem 1rem 0 1rem;
+  text-align: center;
+}
+
+.scientist-name {
+  text-align: center;
+}
+
+.scientist-profile {
+  margin: 2rem;
+  background-color: white;
+  border: 3px 0 white;
+  border-radius: 5px;
+  color: black;
+  width: fit-content;
+  padding: 10px;
+}
+
+.gallery {
+  display: flex;
+  background-color: lightpink;
+  justify-content: space-around;
+}
+
+.info {
+  padding: 30px;
+  font-weight: lighter;
+}
+
+.fact {
+  border: 2px black;
+  margin: 40px;
+}
+
+.cent {
+  text-align: center;
+  margin: 30px;
+  padding: 30px;
+}
+
+.buttons {
+  border: none;
+  border-radius: 3px;
+  background-color: lightpink;
+  color: white;
+  padding: 10px;
+  margin: 15px;
+  font-family: "Playwrite SK", cursive;
+  font-weight: lighter;
+  font-size: 16pt;
+}
+
+.button {
+  border: none;
+  border-radius: 3px;
+  background-color: lightpink;
+  color: white;
+  padding: 10px;
+  margin: 15px;
+  font-family: "Playwrite SK", cursive;
+  font-weight: lighter;
+}
+
+
+.buttons:hover {
+  cursor: pointer;
+  box-shadow: 10px 10px 34px 0px rgba(0, 0, 0, 0.75);
+}
+
+.button:hover {
+  cursor: pointer;
+  box-shadow: 10px 10px 34px 0px rgba(0, 0, 0, 0.75);
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+}
+
+.bckgnd {
+  background-color: white;
+  border: lightpink;
+  text-align: center;
+  color: black;
+  font-weight: lighter;
+  padding: 3rem;
+}
+
+.description {
+  text-align: center;
+}
+
+.prev-next {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.txt {
+  padding: 20px;
+}
+
+.hello {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.inp {
+  margin-right: 1rem;
+  border: none;
+  padding: 15px;
+}
+
+.dot-wrapper {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+panel {
+  margin: 20px;
+
+}
+
+.inp2 {
+  margin-right: 1rem;
+  border: none;
+  padding: 15px;
+  border: 2px black;
+}
+
+.list {
+  text-align: left;
+}
+
+.panel {
+  margin: 20;
+  border: thick solid lightpink;
+  border-color: lightpink;
+  color: white;
+  padding: 30;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.list-buttons {
+  margin: 5px;
+  background-color: lightseagreen;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 7px;
+  cursor: pointer;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.list-input {
+  padding: 7px;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+@media (max-width: 800px) {
+  .gallery {
+    display: grid;
+    width: max-content;
+    padding: 20px;
+    font-family: "Playwrite SK", monospace;
+  }
+
+  .title {
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 10px;
+    font-size: 3rem;
+  }
 }
